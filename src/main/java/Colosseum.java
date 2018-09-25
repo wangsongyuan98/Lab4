@@ -73,6 +73,9 @@ public class Colosseum {
      */
     public static Pokemon buildPokemon() {
         Pokemon tempPokemon = new Pokemon();
+        Scanner lineScanner = new Scanner(System.in);
+        System.out.println("Please name your Pokemon:");
+
         return tempPokemon;
     }
 
